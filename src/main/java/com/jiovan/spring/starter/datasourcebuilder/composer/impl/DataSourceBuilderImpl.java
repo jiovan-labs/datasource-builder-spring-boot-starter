@@ -151,7 +151,6 @@ public class DataSourceBuilderImpl implements DataSourceBuilder {
      */
     @Nullable
     @Override
-    @SuppressWarnings({"JavadocDeclaration", "JavadocLinkAsPlainText"})
     public DataSourceProperties dataSourceProperties(@Nonnull Environment environment, @Nonnull String prefix, @Nonnull Class<? extends DataSourceProperties> clazz) {
         return !StringUtils.hasText(prefix) ? null : Binder.get(environment).bind(prefix, clazz).orElse(null);
     }

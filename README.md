@@ -7,14 +7,15 @@ Spring Boot application integrates `DataSource` quickly.
 - Import dependencies
 
 ```xml
-    <dependency>
-        <groupId>cn.unikue.springstarter</groupId>
-        <artifactId>datasource-builder-spring-boot-starter</artifactId>
-        <version>LATEST</version>
-    </dependency>
+
+<dependency>
+  <groupId>com.jiovan.spring.starter</groupId>
+  <artifactId>datasource-builder-spring-boot-starter</artifactId>
+  <version>LATEST</version>
+</dependency>
 ```
 
-> By default, this starter will auto take effect, you can turn it off by `spring.datasource-builder.enabled = false`
+> By default, this starter will auto take effect, you can turn it off by `jiovan.datasource-builder.enabled = false`
 
 - Configure your beans with a `DataSourceBuilder` bean by constructor or `@Autowired`/`@Resource` annotation, then you can create beans with it as following:
 
@@ -37,7 +38,7 @@ Spring Boot application integrates `DataSource` quickly.
 
 ## Document
 
-- Github: https://github.com/unikueltd/datasource-builder-spring-boot-starter
+- Github: https://github.com/jiovan-labs/datasource-builder-spring-boot-starter
 
 ## Requirement
 
@@ -51,12 +52,12 @@ See the `NOTICE.txt` file for required notices and attributions.
 
 ## Donation
 
-You like this package? Then [donate to us](https://unikue.cn/donation) to support the development.
+You like this package? Then [donate to us](https://jiovan.com/donation) to support the development.
 
 ## Copyright
 
-Beijing Unikue Network Technology Ltd.
+Beijing Jiovan Technology Ltd.
 
 ## Website
 
-- Unikue: https://unikue.cn
+- Jiovan: https://jiovan.com

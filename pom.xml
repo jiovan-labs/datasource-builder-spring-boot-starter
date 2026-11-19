@@ -266,7 +266,7 @@
                 </exclusion>
                 <exclusion>
                     <groupId>org.springframework.boot</groupId>
-                    <artifactId>spring-boot-starter-aop</artifactId>
+                    <artifactId>spring-boot-starter-aspectj</artifactId>
                 </exclusion>
             </exclusions>
         </dependency>

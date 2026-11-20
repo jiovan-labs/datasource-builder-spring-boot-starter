@@ -24,7 +24,7 @@ import com.jiovan.spring.starter.datasourcebuilder.property.Dbcp2DataSourcePrope
 
 
 /**
- * {@link org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration} for DBCP2
+ * {@link org.springframework.boot.jdbc.autoconfigure.DataSourceConfiguration} for DBCP2
  *
  * @author David Hsing
  */

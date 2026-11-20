@@ -24,7 +24,7 @@ import com.jiovan.spring.starter.datasourcebuilder.property.TomcatDataSourceProp
 
 
 /**
- * {@link org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration} for Tomcat
+ * {@link org.springframework.boot.jdbc.autoconfigure.DataSourceConfiguration} for Tomcat
  *
  * @author David Hsing
  */

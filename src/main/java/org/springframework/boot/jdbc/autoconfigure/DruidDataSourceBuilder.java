@@ -33,7 +33,7 @@ import com.jiovan.spring.starter.datasourcebuilder.property.DruidDataSourcePrope
 
 
 /**
- * {@link org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration} for Druid
+ * {@link org.springframework.boot.jdbc.autoconfigure.DataSourceConfiguration} for Druid
  *
  * @author David Hsing
  */

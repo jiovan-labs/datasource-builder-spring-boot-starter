@@ -25,7 +25,7 @@ import oracle.ucp.jdbc.PoolXADataSourceImpl;
 
 
 /**
- * {@link org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration} for Oracle UCP
+ * {@link org.springframework.boot.jdbc.autoconfigure.DataSourceConfiguration} for Oracle UCP
  *
  * @author David Hsing
  */

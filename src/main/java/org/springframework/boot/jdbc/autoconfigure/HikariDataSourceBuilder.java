@@ -24,7 +24,7 @@ import com.zaxxer.hikari.HikariDataSource;
 
 
 /**
- * {@link org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration} for Hikari
+ * {@link org.springframework.boot.jdbc.autoconfigure.DataSourceConfiguration} for Hikari
  *
  * @author David Hsing
  */

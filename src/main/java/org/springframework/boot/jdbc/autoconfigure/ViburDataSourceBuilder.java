@@ -25,7 +25,7 @@ import com.jiovan.spring.starter.datasourcebuilder.property.ViburDataSourcePrope
 
 
 /**
- * {@link org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration} for Vibur
+ * {@link org.springframework.boot.jdbc.autoconfigure.DataSourceConfiguration} for Vibur
  *
  * @author David Hsing
  */

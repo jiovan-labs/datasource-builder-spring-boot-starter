@@ -24,7 +24,7 @@ import com.jiovan.spring.starter.datasourcebuilder.property.C3p0DataSourceProper
 
 
 /**
- * {@link org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration} for C3P0
+ * {@link org.springframework.boot.jdbc.autoconfigure.DataSourceConfiguration} for C3P0
  *
  * @author David Hsing
  */

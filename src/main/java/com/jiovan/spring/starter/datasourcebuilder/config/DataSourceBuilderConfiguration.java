@@ -38,6 +38,7 @@ import com.jiovan.spring.starter.datasourcebuilder.composer.impl.DataSourceBuild
  * Configuration for {@link com.jiovan.spring.starter.datasourcebuilder.composer.DataSourceBuilder}
  *
  * @author David Hsing
+ *
  * @see com.jiovan.spring.starter.datasourcebuilder.composer.DataSourceBuilder
  */
 @Configuration(proxyBeanMethods = false)

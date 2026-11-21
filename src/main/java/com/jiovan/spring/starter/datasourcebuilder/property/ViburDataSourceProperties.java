@@ -28,6 +28,7 @@ import lombok.ToString;
  * Properties for Vibur
  *
  * @author David Hsing
+ *
  * @see "org.vibur.dbcp.ViburConfig"
  */
 @Getter

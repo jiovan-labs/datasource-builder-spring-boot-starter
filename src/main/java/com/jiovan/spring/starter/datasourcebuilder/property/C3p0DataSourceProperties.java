@@ -27,6 +27,7 @@ import lombok.ToString;
  * Properties for C3P0
  *
  * @author David Hsing
+ *
  * @see com.mchange.v2.c3p0.impl.WrapperConnectionPoolDataSourceBase
  */
 @Getter

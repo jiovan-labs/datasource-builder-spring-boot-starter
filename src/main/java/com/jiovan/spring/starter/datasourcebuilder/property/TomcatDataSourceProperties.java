@@ -28,6 +28,7 @@ import lombok.ToString;
  * Properties for Tomcat
  *
  * @author David Hsing
+ *
  * @see "org.apache.tomcat.jdbc.pool.PoolProperties"
  */
 @Getter

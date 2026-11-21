@@ -32,6 +32,7 @@ import com.jiovan.spring.starter.datasourcebuilder.property.DruidDataSourcePrope
  * Utilities for decrypting Druid password
  *
  * @author David Hsing
+ *
  * @see "com.alibaba.druid.filter.config.ConfigTools#decrypt(String)"
  */
 @SuppressWarnings({"unused", "BooleanMethodIsAlwaysInverted", "UnusedReturnValue"})
@@ -71,6 +72,7 @@ public abstract class DruidDecryptUtils {
      *
      * @param cipherPassword a cipher password string
      * @param connectionProperties a {@link java.util.Properties} that contains fields of {@link com.alibaba.druid.filter.config.ConfigFilter} as keys
+     *
      * @return the plain password of {@link com.alibaba.druid.pool.DruidDataSource}
      *
      * @throws java.security.NoSuchAlgorithmException if no Provider supports a KeyFactorySpi implementation for the specified algorithm

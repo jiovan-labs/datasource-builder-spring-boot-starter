@@ -28,6 +28,7 @@ import lombok.ToString;
  * Properties for Hikari
  *
  * @author David Hsing
+ *
  * @see "com.zaxxer.hikari.HikariConfig"
  */
 @Getter

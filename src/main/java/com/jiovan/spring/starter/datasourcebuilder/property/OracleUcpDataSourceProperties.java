@@ -28,6 +28,7 @@ import lombok.ToString;
  * Properties for Oracle UCP
  *
  * @author David Hsing
+ *
  * @see oracle.ucp.jdbc.PoolDataSourceImpl
  */
 @Getter

@@ -51,6 +51,7 @@
 
         <c3p0.version>0.15.1</c3p0.version>
         <druid.version>1.2.28</druid.version>
+        <lombok.version>1.18.46</lombok.version>
         <plexus-spring-toolkit.version>4.1.0</plexus-spring-toolkit.version>
         <vibur-dbcp.version>26.0</vibur-dbcp.version>
 
@@ -174,12 +175,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-autoconfigure</artifactId>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.springframework.boot</groupId>
-                    <artifactId>spring-boot-starter-logging</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -356,6 +351,18 @@
                         <arg>-parameters</arg>
                         <arg>-Xlint:unchecked</arg>
                     </compilerArgs>
+                    <annotationProcessorPaths>
+                        <path>
+                            <groupId>org.projectlombok</groupId>
+                            <artifactId>lombok</artifactId>
+                            <version>${lombok.version}</version>
+                        </path>
+                        <path>
+                            <groupId>org.springframework.boot</groupId>
+                            <artifactId>spring-boot-configuration-processor</artifactId>
+                            <version>${spring-boot.version}</version>
+                        </path>
+                    </annotationProcessorPaths>
                     <excludes>
                         <exclude>**/._*</exclude>
                     </excludes>

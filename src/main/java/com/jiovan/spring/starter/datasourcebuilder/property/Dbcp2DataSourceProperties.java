@@ -29,6 +29,7 @@ import lombok.ToString;
  * Properties for DBCP2
  *
  * @author David Hsing
+ *
  * @see org.apache.commons.dbcp2.BasicDataSource
  */
 @Getter

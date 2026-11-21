@@ -40,6 +40,7 @@ import lombok.extern.slf4j.Slf4j;
  * Abstract builder that extended from {@link org.springframework.boot.jdbc.autoconfigure.DataSourceConfiguration}
  *
  * @author David Hsing
+ *
  * @see org.springframework.boot.jdbc.autoconfigure.DataSourceConfiguration
  */
 @Slf4j

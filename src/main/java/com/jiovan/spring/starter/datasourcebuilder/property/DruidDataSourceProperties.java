@@ -30,6 +30,7 @@ import lombok.ToString;
  * Properties for Druid
  *
  * @author David Hsing
+ *
  * @see "https://github.com/alibaba/druid/wiki/DruidDataSource配置属性列表"
  */
 @Getter
